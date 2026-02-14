@@ -1,0 +1,22 @@
+name: SafeChat
+version: 1.0.0
+main: sfc.safeChat.SafeChat
+api-version: "1.21"
+
+commands:
+  sfc:
+    description: SafeChat command
+    usage: /sfc reload
+    aliases: [sf, safechat]
+
+permissions:
+  sfc.cooldown.exempt:
+    default: op
+  sfc.swear.exempt:
+    default: op
+  sfc.reload:
+    default: op
+  sfc.group.vip:
+    default: false
+  sfc.group.vipplus:
+    default: false
