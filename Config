@@ -1,0 +1,33 @@
+groups:
+  op:
+    cooldownSeconds: -1
+    useIfOp: true
+
+  vipplus:
+    permission: "sfc.group.vipplus"
+    cooldownSeconds: 1
+
+  vip:
+    permission: "sfc.group.vip"
+    cooldownSeconds: 2
+
+  default:
+    cooldownSeconds: 3
+
+antiSwear:
+  enabled: true
+  bannedWords:
+    - "Fuc*"
+    - "Kur**"
+
+messages:
+  cooldown: "&cYou are typing too fast! Please wait %remaintime%s."
+  reload: "&2sfc was reloaded!"
+  bannedword: "&cplease do not swear!"
+  noPerm: "&cNo permission."
+
+kickSystem:
+  enabled: true
+  howMuch: 7
+  windowSeconds: 10
+  command: "kick %player% please calm down!"
